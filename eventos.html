@@ -3,6 +3,7 @@ layout: page
 title: Eventos
 permalink: /eventos/
 ---
+
 <!-- Slider Start -->
 <section id="global-header">
   <div class="container">
@@ -16,16 +17,14 @@ permalink: /eventos/
     </div>
   </div>
 </section>
-<section>
-
+<section class="events">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-            {% for post in site.posts %}
-                <div class="col-md-4">
-                  <img src="{{post.image}}" alt="">
+            {% for post in site.categories.Eventos %}
+            <div class="row post-row">
+                <div class="col-md-4 col-sm-4">
+                  <img class="post-thumbnail" src="{{post.image}}" alt="">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-sm-8">
                     <div class="post-area">
                       <h2>{{post.title}}</h2>
                       <p class="post-date">{{ post.date | date_to_long_string }}</p>
@@ -35,8 +34,8 @@ permalink: /eventos/
                       <a href="{{ post.url | prepend: site.baseurl }}"><button type="button" class="btn btn-success">Veja Mais</button></a>
                     </div>
                   </div>
+                    </div>
                 {% endfor %}
-        </div>
-    </div>
+
     </div>
 </section>
