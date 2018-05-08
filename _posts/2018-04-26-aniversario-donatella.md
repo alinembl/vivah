@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oba! Teve Picdog no Vivah!
+title: Oba! Teve aniversário no Vivah!
 subtitle: A Golden Donatella completando um ano de vida aqui no Vivah Kennel
 date: 2017-04-26 21:11:27
 author: Vivah Kennel
