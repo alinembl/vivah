@@ -188,6 +188,21 @@ px      68    160    252    */
   #slider .block p {
     font-size: 13px;
   }
+  #global-header-golden {
+    background-position: 50% 30%;
+  }
+  #global-header-maltes {
+    background-position: 70% 10%;
+  }
+  #global-header-family {
+    background-position: 60% 0%;
+  }
+  #global-header-historia {
+    background-position: 21% 10%;
+  }
+  #global-header {
+    background-position: 20% 30%;
+  }
   /*--
 	wrapper Start
 --*/
