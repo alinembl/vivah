@@ -1209,3 +1209,16 @@ footer .footer-manu ul li a:hover {
 .dropdownhover:hover .dropbtn {
     background-color: white;
 }
+.rodape-whatsapp {
+    background-color: #5BBF64;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+}
+.rodape-whatsapp span {
+  color: #F0F2F4;
+  font-weight: bold;
+
+}
