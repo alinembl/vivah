@@ -338,6 +338,9 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 30px;
   color: #fff;
 }
+#feature h4 {
+  color: #fff;
+}
 #feature p {
   color: #fff;
   margin-bottom: 20px;
@@ -346,6 +349,11 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature .btn-view-works {
   background: #655E7A;
   color: #fff;
+  padding: 10px 20px;
+}
+#feature .btn-view-works:hover {
+  background: #fff;
+  color: #655E7A;
   padding: 10px 20px;
 }
 /*--
