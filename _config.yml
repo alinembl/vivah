@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: Vivah Kennel
 subtitle: ""
-url: "http://alinebml.github.io/vivah" # the base hostname & protocol for your site
+url: "https://vivahkennel.com" # the base hostname & protocol for your site
 baseurl: "/vivah"
 
 cover: "/assets/cover.png"
