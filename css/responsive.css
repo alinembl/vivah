@@ -176,33 +176,70 @@ px      68    160    252    */
     margin-bottom: 20px;
   }
   #slider {
+    background: url("../img/fundo.jpg") no-repeat;
+    background-size: cover;
+    background-position-x: 30%;
+    background-position-y: 30%;
     padding-top: 90px;
     padding-bottom: 100px;
+
   }
   #slider .block {
     padding-left: 0px;
   }
   #slider .block h1 {
     font-size: 20px;
+    font-weight: normal;
   }
   #slider .block p {
     font-size: 13px;
   }
   #global-header-golden {
-    background-position: 50% 30%;
+    background: url("../img/39.png") no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 30%;
   }
   #global-header-maltes {
-    background-position: 70% 10%;
+    background: url("../img/32.jpg") no-repeat;
+    background-size: cover;
+    background-position-x: 70%;
+    background-position-y: 10%;
   }
   #global-header-family {
-    background-position: 60% 0%;
+    background: url("../img/familia-bg.png") no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 30%;
   }
   #global-header-historia {
-    background-position: 30% 0%;
+    background: url("../img/history-bg.png") no-repeat;
+    background-size: cover;
+    background-position-x: 30%;
+    background-position-y: 0%;
   }
   #global-header {
-    background-position: 20% 30%;
+    background: url("../img/fundo.jpg") no-repeat;
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 30%;
   }
+  #global-header-servicos {
+    background: url("../img/31.png") no-repeat;
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 30%;
+  }
+
+  #feature {
+    background: url("../img/32.jpg")no-repeat;
+    background-size: cover;
+    background-position: 20% 94px;
+    background-position-x: 70%;
+    background-position-y: 94px;
+  }
+
+
   /*--
 	wrapper Start
 --*/
