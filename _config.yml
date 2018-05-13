@@ -1,5 +1,9 @@
 environment: production
 
+# Google Analytics
+google_analytics: UA-119137375-1
+
+
 exclude:
   - "/vendor/"
   - "Gemfile"
